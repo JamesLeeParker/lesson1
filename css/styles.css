@@ -1,0 +1,101 @@
+:root {
+  --primary-text-color: rgb(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primery-wight-color: #ffffff;
+}
+
+/* General-stile */
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primary-text-color);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* site-nav */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.site-nav-menue .link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav-menue .link:hover,
+.site-nav-menue .link:focus {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primery-wight-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.button.primary {
+  color: var(--primery-wight-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primery-wight-color);
+}
+
+/* Heroe */
+.hero-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Features & Exemples */
+.feature-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.section-description {
+  font-size: 36px;
+  line-height: 1.39;
+}
+
+.link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
