@@ -5,8 +5,19 @@
   --primery-wight-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* General-stile */
 body {
+  margin: 0;
   background-color: var(--primery-bg-color);
   color: var(--primary-text-color);
   font-family: Montserrat, sans-serif;
@@ -16,11 +27,21 @@ body {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
   text-decoration: none;
 }
 
+/* p {
+  margin: 0;
+} */
+
 /* site-nav */
+.conteiner {
+  width: 1680px;
+}
 
 .logo {
   color: var(--title-text-color);
@@ -45,35 +66,53 @@ ul {
 
 /* Button */
 .button {
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 11px 34px;
+  min-width: 130px;
+
   color: var(--title-text-color);
   background-color: var(--primery-wight-color);
+
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
   text-decoration: none;
+  text-align: center;
 }
 
 .button.primary {
+  margin-bottom: 60px;
   color: var(--primery-wight-color);
   background-color: var(--accent-color);
 }
 
 .button.secondary {
+  border-color: var(--accent-color);
   color: var(--accent-color);
   background-color: var(--primery-wight-color);
 }
 
 /* Heroe */
+.hero-block {
+  text-align: center;
+}
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 56px;
   line-height: 1.43;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Section */
 .section-title {
+  margin: 0;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 48px;
@@ -95,7 +134,27 @@ ul {
   line-height: 1.39;
 }
 
-.link {
+.feature-list .link {
+  margin-top: 32px;
+
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.title {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.section {
+  background-color: tomato;
+}
+
+.section .feature-list {
+  text-align: center;
 }
