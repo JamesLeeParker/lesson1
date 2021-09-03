@@ -14,8 +14,8 @@
 
 <body>
     <!-- Hader-site -->
-    <header class="conteiner">
-        <nav class="site-nav link">
+    <header class="page-header">
+        <nav class="container site-nav link">
             <a class="logo" href="">
                 <img src="./images/logo.svg" alt="Logo">
                 photo
@@ -34,7 +34,9 @@
                 <li><a class="button primary" href="">Register</a></li>
             </ul>
         </nav>
+        
     </header>
+
 
     <main>
         <!-- Hero -->
@@ -57,7 +59,7 @@
                         magni dolores eos qui
                         ratione voluptatem sequi nesciunt. Neque porro quisquam est.
                     </p>
-                    <a class="link" href="">Learn more</a>
+                    <a class="link button secondary" href="">Learn more</a>
                 </li>
                 <li>
                     <h3 class="title">Lorem ipsum dolor</h3>
@@ -66,7 +68,7 @@
                         aliqua. Ut enim ad minim
                         veniam, quis nostrud exercitation ullamco laboris nisi.
                     </p>
-                    <a class="link" href="">Learn more</a>
+                    <a class="link button secondary" href="">Learn more</a>
                 </li>
                 <li>
                     <h3 class="title">Nemo enim ipsam</h3>
@@ -76,7 +78,7 @@
                         dolorem ipsum quia
                         dolor sit amet, consectetur, adipisci velit, sed quia non numquam.
                     </p>
-                    <a class="link" href="">Learn more</a>
+                    <a class="link button secondary" href="">Learn more</a>
                 </li>
                 <li>
                     <h3 class="title">Tempor incididunt</h3>
@@ -86,33 +88,36 @@
                         sit amet, consectetur,
                         adipisci velit, sed quia non numquam eius modi tempora.
                     </p>
-                    <a class="link" href="">Learn more</a>
+                    <a class="link button secondary" href="">Learn more</a>
                 </li>
             </ul>
         </section>
 
         <!-- Exemples -->
         <section class="section">
-            <ul class="work-list">
-                <li>
-                    <img src="./images/Rectangle.png" alt="" width="750">
-                    <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui
-                        ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur
-                        magni dolores eos qui
-                        ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-                    </p>
-                    <img src="./images/Rectangle.png" alt="" width="750">
-                </li>
-            </ul>
+            <div class="conteiner">
+                <ul class="work-list">
+                    <li class="item">
+                        <img src="./images/Rectangle.png" alt="" width="750">
+                        <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                        <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur
+                            magni dolores eos qui
+                            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                        </p>
+                    </li>
+                    <li class="item">
+                        <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                        <p class="text">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur
+                            magni dolores eos qui
+                            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                        </p>
+                        <img src="./images/Rectangle.png" alt="" width="750">
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- Testimonials -->
@@ -167,12 +172,12 @@
         </section>
 
         <!-- Signup -->
-        <section>
+        <section class="section">
             <p class="section-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             </p>
-            <a href="">Join Today</a>   
-            <a href="">Contact us</a> 
+            <a class="button primary" href="">Join Today</a>   
+            <a class="button secondary" href="">Contact us</a> 
         </section>
 
     Footer
